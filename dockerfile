@@ -8,7 +8,6 @@ RUN mkdir =p /var/run/sshd
 
 CMD /usr/sbin/sshd -D
 
-user nobody/root
 WORKDIR /tmp
 ENV foobar "Hello world"
 
